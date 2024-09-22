@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คณิตศาสตร์ - ม.5</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        nav.navigation {
+            display: block;
+            width: 100%;
+            background-color: navy;
+            box-shadow: 0px 5px 50px 5px rgba(69, 0, 199, 0.62);
+            z-index: 1000;
+        }
+        .navigation h1 {
+            color: #1100ff;
+            background-image: -webkit-linear-gradient(0deg, white 0%, #466e85 46%, gray 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            text-emphasis-color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+        .navigation ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+        .navigation li {
+            margin: 0 15px;
+            padding: 15px 0;
+        }
+        .navigation a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        .container.content {
+            margin-top: 80px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .section p, .section ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .example {
+            background-color: #e9ecef;
+            border-left: 4px solid #007bff;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-style: italic;
+        }
+        .example strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .nav-links {
+            margin-top: 20px;
+            font-size: 1.1rem;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #007bff;
+            margin-right: 15px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation navbar-expand-sm py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="py-1">Student Learning Internet</h1>
+                <ul class="navbar-nav" aria-label="Main navigation">
+                    <li class="navbar-item"><a class="nav-link" href="index.html" aria-label="Home">หน้าหลัก</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="About.html" aria-label="About">เกี่ยวกับ</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="Contact.html" aria-label="Contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container content">
+        <h1 class="mb-4">วิชา คณิตศาสตร์ ม.5</h1>
+        
+        <div class="nav-links">
+            <a href="#algebra">1. พีชคณิต</a>
+            <a href="#geometry">2. เรขาคณิต</a>
+            <a href="#statistics">3. สถิติ</a>
+            <a href="#calculus">4. แคลคูลัส</a>
+        </div>
+
+        <div class="section" id="algebra">
+            <h2>1. พีชคณิต</h2>
+            <p>พีชคณิตระดับมัธยมศึกษาปีที่ 5 ประกอบด้วยหัวข้อสำคัญต่างๆ ที่ช่วยเสริมสร้างความเข้าใจในพื้นฐานของพีชคณิต เช่น:</p>
+            <ul>
+                <li><strong>การแก้สมการและอสมการ:</strong> การแก้สมการเชิงพีชคณิตในรูปแบบต่างๆ เช่น สมการเชิงเส้น สมการพหุนาม และสมการเชิงเส้นสองตัวแปร รวมถึงการแก้ปัญหาอสมการเชิงพีชคณิตด้วยเทคนิคต่างๆ</li>
+                <li><strong>ฟังก์ชันและกราฟ:</strong> การวิเคราะห์ฟังก์ชันพื้นฐาน เช่น ฟังก์ชันเชิงเส้น ฟังก์ชันพหุนาม ฟังก์ชันพีระมิด และฟังก์ชันลอการิธึม การวาดกราฟและการหาค่าความเอนเอียงของกราฟ</li>
+                <li><strong>ระบบสมการ:</strong> การแก้ระบบสมการเชิงเส้นโดยใช้วิธีการต่างๆ เช่น วิธีการแทนค่าและการกำจัดตัวแปร</li>
+                <li><strong>การใช้เลขยกกำลังและลอการิธึม:</strong> การใช้กฎของเลขยกกำลังและลอการิธึมในการแก้ปัญหาทางพีชคณิต</li>
+            </ul>
+            <div class="example">
+                <strong>ตัวอย่าง:</strong> การแก้สมการเชิงพีชคณิต เช่น การหาค่าของ x ในสมการ 3x + 5 = 20
+            </div>
+        </div>
+
+        <div class="section" id="geometry">
+            <h2>2. เรขาคณิต</h2>
+            <p>วิชาเรขาคณิตจะครอบคลุมเนื้อหาหลักๆ ดังนี้:</p>
+            <ul>
+                <li><strong>เรขาคณิตเชิงพีชคณิต:</strong> การศึกษาคุณสมบัติของรูปทรงเรขาคณิต เช่น จุด เส้นตรง เส้นโค้ง และระนาบ รวมถึงการใช้สมการในการวิเคราะห์รูปทรงเรขาคณิต</li>
+                <li><strong>ลักษณะและคุณสมบัติของรูปทรงเรขาคณิต:</strong> การศึกษาเกี่ยวกับรูปทรงเรขาคณิตพื้นฐาน เช่น วงกลม รูปสี่เหลี่ยม สามเหลี่ยม และพีระมิด</li>
+                <li><strong>ทฤษฎีบทพีทาโกรัส:</strong> การใช้ทฤษฎีบทพีทาโกรัสในการหาค่าความยาวของด้านในรูปสามเหลี่ยมมุมฉาก</li>
+                <li><strong>เรขาคณิตวิเคราะห์:</strong> การศึกษาเกี่ยวกับกราฟของฟังก์ชันทางเรขาคณิตและการวิเคราะห์ความสัมพันธ์ของกราฟเหล่านั้น</li>
+            </ul>
+            <div class="example">
+                <strong>ตัวอย่าง:</strong> การใช้ทฤษฎีบทพีทาโกรัสในการหาความยาวของด้านในรูปสามเหลี่ยมมุมฉาก เช่น หาความยาวของด้านของรูปสามเหลี่ยมที่มีด้านยาว 5 และ 12 หน่วย
+            </div>
+        </div>
+
+        <div class="section" id="statistics">
+            <h2>3. สถิติ</h2>
+            <p>สถิติในระดับมัธยมศึกษาปีที่ 5 มีความสำคัญในการวิเคราะห์และการตัดสินใจ โดยครอบคลุมหัวข้อต่างๆ ดังนี้:</p>
+            <ul>
+                <li><strong>การเก็บข้อมูล:</strong> การเรียนรู้วิธีการเก็บข้อมูลที่ถูกต้อง การสร้างแบบสอบถาม และการจัดการกับข้อมูล</li>
+                <li><strong>การวิเคราะห์ข้อมูล:</strong> การใช้สถิติพื้นฐานในการวิเคราะห์ข้อมูล เช่น การหาค่ากลาง ความเบี่ยงเบนมาตรฐาน และการสร้างกราฟแสดงข้อมูล</li>
+                <li><strong>การใช้เครื่องมือทางสถิติ:</strong> การใช้เครื่องมือและเทคนิคต่างๆ เช่น การทดสอบสมมติฐาน การวิเคราะห์ความสัมพันธ์ระหว่างตัวแปร</li>
+            </ul>
+            <div class="example">
+                <strong>ตัวอย่าง:</strong> การวิเคราะห์ข้อมูลการสำรวจความคิดเห็นของนักเรียนเกี่ยวกับการศึกษาสาขาต่างๆ และการสร้างกราฟแสดงผลการสำรวจ
+            </div>
+        </div>
+
+        <div class="section" id="calculus">
+            <h2>4. แคลคูลัส</h2>
+            <p>การศึกษาวิชาแคลคูลัสในระดับมัธยมศึกษาปีที่ 5 จะเน้นเรื่องต่างๆ ดังนี้:</p>
+            <ul>
+                <li><strong>ลิมิต:</strong> การเข้าใจแนวคิดพื้นฐานเกี่ยวกับลิมิตและการใช้ลิมิตในการวิเคราะห์ฟังก์ชัน</li>
+                <li><strong>การหาค่าดิฟเฟอเรนเชียล:</strong> การเรียนรู้วิธีการหาอนุพันธ์ของฟังก์ชันและการประยุกต์ใช้งาน</li>
+                <li><strong>การหาปริพันธ์:</strong> การหาปริพันธ์ของฟังก์ชันและการใช้ปริพันธ์ในการคำนวณพื้นที่ใต้กราฟ</li>
+            </ul>
+            <div class="example">
+                <strong>ตัวอย่าง:</strong> การหาปริพันธ์ของฟังก์ชัน x^2 และการใช้ผลลัพธ์ในการคำนวณพื้นที่ใต้กราฟ
+            </div>
+        </div>
+    </div>
+</body>
+</html>

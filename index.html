@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    <title>หน้าแรก | อิอิ</title>
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+        }
+
+        nav.navigation {
+            display: block;
+            width: 100%;
+            background-color: navy;
+            box-shadow: 0px 5px 50px 5px rgba(69, 0, 199, 0.62);
+            z-index: 1000;
+        }
+
+        .navigation h1 {
+            color: #1100ff;
+            background-image: -webkit-linear-gradient(0deg, white 0%, #466e85 46%, gray 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            text-emphasis-color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .navigation ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+
+        .navigation li {
+            margin: 0 15px;
+            padding: 15px 0;
+        }
+
+        .navigation a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        /* .navigation a:hover {
+            background-color: #a581ff5b;
+            box-shadow: 0px 0px 10px 3px #a481ff;
+            text-decoration: underline;
+        } */
+
+        .content {
+            margin-top: 80px;
+            /* Adjust according to the height of your navigation */
+        }
+
+        /*.nolinelink {
+            text-decoration: ;
+        }*/
+    </style>
+</head>
+
+<body>
+    <nav class="navigation navbar-expand-sm py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="py-1">Student Learning Internet</h1>
+                <ul class="navbar-nav" aria-label="Main navigation">
+                    <li class="navbar-item"><a class="nav-link" href="index.html" aria-label="Home">หน้าหลัก</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="About.html" aria-label="About">เกี่ยวกับ</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="Contact.html" aria-label="Contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container py-5">
+            <center>
+                <h1>เลือกวิชา</h1>
+            </center>
+            <div class="d-grid mt-5 gap-3">
+                <a href="thai.html" class="btn btn-outline-success btn-lg">ภาษาไทย</a>
+                <a href="math.html" class="btn btn-outline-success btn-lg">คณิต</a>
+                <a href="english.html" class="btn btn-outline-success btn-lg">อังกฤษ</a>
+                <a href="physics.html" class="btn btn-outline-success btn-lg">ฟิสิกส์</a>
+                <a href="chemistry.html" class="btn btn-outline-success btn-lg">เคมี</a>
+                <a href="biology.html" class="btn btn-outline-success btn-lg">ชีววิทยา</a>
+                <a href="geography.html" class="btn btn-outline-success btn-lg">ภูมิศาสตร์</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="text-center py-4 mt-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <p class="mb-0">Student Learning Internet.</p>
+            <p class="mb-0">วิชา ศึกษาค้นคว้าและสร้างองค์ความรู้(IS)</p>
+            <p class="mb-0">© 2024</p>
+        </div>
+    </footer>
+    
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

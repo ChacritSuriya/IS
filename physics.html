@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    <title>ฟิสิกส์ | Student Learning Internet</title>
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f1f1f1;
+        }
+        nav.navigation {
+            display: block;
+            width: 100%;
+            background-color: navy;
+            box-shadow: 0px 5px 50px 5px rgba(69, 0, 199, 0.62);
+            z-index: 1000;
+        }
+        .navigation h1 {
+            color: #1100ff;
+            background-image: -webkit-linear-gradient(0deg, white 0%, #466e85 46%, gray 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            text-emphasis-color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+        .navigation ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+        .navigation li {
+            margin: 0 15px;
+            padding: 15px 0;
+        }
+        .navigation a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .content {
+            margin-top: 80px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .section p, .section ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .example {
+            background-color: #e9ecef;
+            border-left: 4px solid #007bff;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-style: italic;
+        }
+        .example strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .nav-links {
+            margin-top: 20px;
+            font-size: 1.1rem;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #007bff;
+            margin-right: 15px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation navbar-expand-sm py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="py-1">Student Learning Internet</h1>
+                <ul class="navbar-nav" aria-label="Main navigation">
+                    <li class="navbar-item"><a class="nav-link" href="index.html" aria-label="Home">หน้าหลัก</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="about.html" aria-label="About">เกี่ยวกับ</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="contact.html" aria-label="Contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container content py-5">
+        <h1>วิชาฟิสิกส์</h1>
+        
+        <div class="nav-links">
+            <a href="#mechanics">1. กลศาสตร์ (Mechanics)</a>
+            <a href="#thermodynamics">2. เทอร์โมไดนามิกส์ (Thermodynamics)</a>
+            <a href="#electromagnetism">3. อิเล็กโทรแม่เหล็กศาสตร์ (Electromagnetism)</a>
+            <a href="#optics">4. ออพติกส์ (Optics)</a>
+            <a href="#waves">5. คลื่น (Waves)</a>
+            <a href="#modern-physics">6. ฟิสิกส์สมัยใหม่ (Modern Physics)</a>
+            <a href="#quantum-physics">7. ฟิสิกส์ควอนตัม (Quantum Physics)</a>
+        </div>
+
+        <div class="section" id="mechanics">
+            <h2>1. กลศาสตร์ (Mechanics)</h2>
+            <p>กลศาสตร์ศึกษาการเคลื่อนที่และแรงที่กระทำต่อวัตถุ:</p>
+            <ul>
+                <li><strong>กฎการเคลื่อนที่ของนิวตัน:</strong> ศึกษากฎการเคลื่อนที่ของนิวตันที่ใช้ในการคำนวณการเคลื่อนที่ของวัตถุและแรงที่กระทำต่อวัตถุ.</li>
+                <li><strong>การเคลื่อนที่ในแนวตรง:</strong> ศึกษาเรื่องความเร็ว การเร่ง และการเคลื่อนที่ในแนวตรงโดยการวิเคราะห์ตำแหน่งและความเร็ว.</li>
+                <li><strong>กลศาสตร์การหมุน:</strong> ศึกษาการหมุนของวัตถุรวมถึงการใช้โมเมนตัมและแรงบิดในการคำนวณ.</li>
+                <li><strong>พลังงาน:</strong> ศึกษาพลังงานจลน์และพลังงานศักย์ รวมถึงหลักการอนุรักษ์พลังงาน.</li>
+                <li><strong>แรงและการเคลื่อนที่:</strong> วิเคราะห์แรงที่กระทำต่อวัตถุและผลกระทบที่เกิดจากแรงนั้น.</li>
+                <li><strong>การเคลื่อนที่แบบฮาร์มอนิก:</strong> ศึกษาการเคลื่อนที่แบบฮาร์มอนิกและการสั่นของวัตถุ.</li>
+                <li><strong>การใช้สมการการเคลื่อนที่:</strong> การใช้สมการการเคลื่อนที่เพื่อคำนวณการเคลื่อนที่ในสถานการณ์ต่าง ๆ.</li>
+            </ul>
+            <div class="example">
+                <strong>Example:</strong> การคำนวณความเร็วของวัตถุที่ตกลงมาในอากาศโดยใช้กฎของนิวตันและพลังงานศักย์.
+            </div>
+        </div>
+
+        <div class="section" id="thermodynamics">
+            <h2>2. เทอร์โมไดนามิกส์ (Thermodynamics)</h2>
+            <p>เทอร์โมไดนามิกส์ศึกษาความร้อนและการเปลี่ยนแปลงพลังงาน:</p>
+            <ul>
+                <li><strong>กฎของเทอร์โมไดนามิกส์:</strong> ศึกษากฎของเทอร์โมไดนามิกส์ทั้งสี่ข้อที่ใช้ในการวิเคราะห์ระบบความร้อน.</li>
+                <li><strong>กระบวนการทางความร้อน:</strong> ศึกษากระบวนการทางความร้อน เช่น การขยายตัวของก๊าซและการเปลี่ยนแปลงสถานะ.</li>
+                <li><strong>ความร้อนและพลังงาน:</strong> วิเคราะห์ความร้อนที่ถ่ายเทและการเปลี่ยนแปลงพลังงานในระบบต่าง ๆ.</li>
+                <li><strong>การทำงานและความร้อน:</strong> ศึกษาการทำงานและความร้อนที่เกิดจากการทำงานของเครื่องจักร.</li>
+                <li><strong>เครื่องกำเนิดพลังงาน:</strong> ศึกษาการทำงานของเครื่องกำเนิดพลังงาน เช่น เครื่องยนต์และหม้อไอน้ำ.</li>
+                <li><strong>วงจรความร้อน:</strong> วิเคราะห์วงจรความร้อนและประสิทธิภาพของเครื่องจักรในระบบปิด.</li>
+                <li><strong>ความสามารถในการทำงาน:</strong> การคำนวณความสามารถในการทำงานและประสิทธิภาพของระบบความร้อน.</li>
+            </ul>
+            <div class="example">
+                <strong>Example:</strong> การคำนวณประสิทธิภาพของเครื่องยนต์ความร้อนโดยใช้กฎของเทอร์โมไดนามิกส์.
+            </div>
+        </div>
+
+        <div class="section" id="electromagnetism">
+            <h2>3. อิเล็กโทรแม่เหล็กศาสตร์ (Electromagnetism)</h2>
+            <p>อิเล็กโทรแม่เหล็กศาสตร์ศึกษาความสัมพันธ์ระหว่างไฟฟ้าและแม่เหล็ก:</p>
+            <ul>
+                <li><strong>สนามไฟฟ้า:</strong> ศึกษาคุณสมบัติและการคำนวณสนามไฟฟ้าที่เกิดจากประจุไฟฟ้า.</li>
+                <li><strong>สนามแม่เหล็ก:</strong> วิเคราะห์สนามแม่เหล็กที่เกิดจากกระแสไฟฟ้าและการเปลี่ยนแปลงสนามแม่เหล็ก.</li>
+                <li><strong>กฎของฟาราเดย์:</strong> ศึกษากฎของฟาราเดย์เกี่ยวกับการเหนี่ยวนำแม่เหล็ก.</li>
+                <li><strong>กฎของแอมแปร์:</strong> วิเคราะห์กฎของแอมแปร์ที่เชื่อมโยงกระแสไฟฟ้ากับสนามแม่เหล็ก.</li>
+                <li><strong>ความสัมพันธ์ระหว่างไฟฟ้าและแม่เหล็ก:</strong> ศึกษาความสัมพันธ์ระหว่างสนามไฟฟ้าและสนามแม่เหล็กในคลื่นแม่เหล็กไฟฟ้า.</li>
+                <li><strong>วงจรไฟฟ้า:</strong> วิเคราะห์วงจรไฟฟ้าและการทำงานของอุปกรณ์ไฟฟ้าต่าง ๆ.</li>
+                <li><strong>การแพร่กระจายของคลื่น:</strong> ศึกษาการแพร่กระจายของคลื่นแม่เหล็กไฟฟ้าในสื่อที่แตกต่างกัน.</li>
+            </ul>
+            <div class="example">
+                <strong>Example:</strong> การคำนวณสนามแม่เหล็กที่เกิดจากกระแสไฟฟ้าผ่านลวดที่มีรูปร่างต่าง ๆ.
+            </div>
+        </div>
+
+        <div class="section" id="optics">
+            <h2>4. ออพติกส์ (Optics)</h2>
+            <p>ออพติกส์ศึกษาพฤติกรรมของแสง:</p>
+            <ul>
+                <li><strong>การหักเหของแสง:</strong> ศึกษาการหักเหของแสงผ่านสื่อที่มีความหนาแน่นต่างกัน.</li>
+                <li><strong>การสะท้อน:</strong> วิเคราะห์การสะท้อนของแสงจากพื้นผิวต่าง ๆ เช่น กระจก.</li>
+                <li><strong>เลนส์และกระจก:</strong> ศึกษาการทำงานของเลนส์และกระจกในการสร้างภาพ.</li>
+                <li><strong>การแทรกซ้อน:</strong> ศึกษาการแทรกซ้อนและการสร้างลวดลายจากแสงที่แทรกซ้อนกัน.</li>
+                <li><strong>การกระเจิง:</strong> วิเคราะห์การกระเจิงของแสงเมื่อมันผ่านรอยแตกหรือเส้นใย.</li>
+                <li><strong>การกระจายของแสง:</strong> ศึกษาวิธีการกระจายของแสงในช่วงความยาวคลื่นที่แตกต่างกัน.</li>
+                <li><strong>กล้องโทรทรรศน์:</strong> วิเคราะห์การทำงานของกล้องโทรทรรศน์และกล้องจุลทรรศน์.</li>
+            </ul>
+            <div class="example">
+                <strong>Example:</strong> การคำนวณตำแหน่งของภาพที่สร้างโดยเลนส์โค้ง.
+            </div>
+        </div>
+
+        <div class="section" id="waves">
+            <h2>5. คลื่น (Waves)</h2>
+            <p>คลื่นศึกษาการเคลื่อนที่ของการรบกวน:</p>
+            <ul>
+                <li><strong>คุณสมบัติของคลื่น:</strong> ศึกษาคุณสมบัติต่าง ๆ ของคลื่น เช่น ความถี่, ความยาวคลื่น, และความเร็ว.</li>
+                <li><strong>การแทรกซ้อนของคลื่น:</strong> วิเคราะห์การแทรกซ้อนและการรบกวนของคลื่น.</li>
+                <li><strong>คลื่นเสียง:</strong> ศึกษาคลื่นเสียงและการแพร่กระจายของเสียงในสื่อที่ต่างกัน.</li>
+                <li><strong>คลื่นแม่เหล็กไฟฟ้า:</strong> วิเคราะห์คลื่นแม่เหล็กไฟฟ้าและการแพร่กระจายของมันในอวกาศ.</li>
+                <li><strong>การสะท้อนของคลื่น:</strong> ศึกษาการสะท้อนของคลื่นจากพื้นผิวต่าง ๆ.</li>
+                <li><strong>คลื่นที่เป็นระยะ:</strong> วิเคราะห์คลื่นที่เป็นระยะและการสร้างภาพสามมิติ.</li>
+                <li><strong>การใช้คลื่นในเทคโนโลยี:</strong> ศึกษาการใช้คลื่นในเทคโนโลยีต่าง ๆ เช่น การสื่อสารและการถ่ายภาพ.</li>
+            </ul>
+            <div class="example">
+                <strong>Example:</strong> การคำนวณความถี่และความยาวคลื่นของคลื่นเสียง.
+            </div>
+        </div>
+
+        <div class="section" id="modern-physics">
+            <h2>6. ฟิสิกส์สมัยใหม่ (Modern Physics)</h2>
+            <p>ฟิสิกส์สมัยใหม่ศึกษาหลักการฟิสิกส์ที่ก้าวหน้า:</p>
+            <ul>
+                <li><strong>ทฤษฎีสัมพัทธภาพ:</strong> ศึกษาทฤษฎีสัมพัทธภาพของไอน์สไตน์และผลกระทบต่อการวัดเวลาและระยะทาง.</li>
+                <li><strong>ฟิสิกส์ควอนตัม:</strong> วิเคราะห์หลักการฟิสิกส์ควอนตัมและการทำงานของอนุภาคเล็ก ๆ.</li>
+                <li><strong>โมเดลอะตอม:</strong> ศึกษาโมเดลอะตอมและพฤติกรรมของอิเล็กตรอนในอะตอม.</li>
+                <li><strong>การสร้างพลังงาน:</strong> วิเคราะห์การสร้างพลังงานในระดับควอนตัม.</li>
+                <li><strong>การศึกษาอนุภาค:</strong> ศึกษาอนุภาคพื้นฐานและทฤษฎีของพวกมัน.</li>
+                <li><strong>การทดลองในฟิสิกส์:</strong> วิเคราะห์การทดลองที่สำคัญในฟิสิกส์สมัยใหม่.</li>
+                <li><strong>การประยุกต์ใช้ฟิสิกส์สมัยใหม่:</strong> ศึกษาการประยุกต์ใช้ทฤษฎีฟิสิกส์สมัยใหม่ในเทคโนโลยีต่าง ๆ.</li>
+            </ul>
+            <div class="example">
+                <strong>Example:</strong> การคำนวณผลกระทบของทฤษฎีสัมพัทธภาพต่อการวัดเวลาในระบบการเคลื่อนที่เร็ว.
+            </div>
+        </div>
+
+        <div class="section" id="quantum-physics">
+            <h2>7. ฟิสิกส์ควอนตัม (Quantum Physics)</h2>
+            <p>ฟิสิกส์ควอนตัมศึกษาพฤติกรรมของอนุภาคที่มีขนาดเล็กมาก:</p>
+            <ul>
+                <li><strong>หลักการควอนตัม:</strong> ศึกษาหลักการควอนตัมพื้นฐาน เช่น หลักการไม่แน่นอนของไฮเซนเบิร์ก.</li>
+                <li><strong>ฟังก์ชันคลื่น:</strong> วิเคราะห์ฟังก์ชันคลื่นและการคำนวณการกระจายของอนุภาค.</li>
+                <li><strong>ทฤษฎีควอนตัมสนาม:</strong> ศึกษาทฤษฎีควอนตัมสนามและการทำงานของแรงพื้นฐาน.</li>
+                <li><strong>การสัมพัทธภาพควอนตัม:</strong> ศึกษาการรวมฟิสิกส์ควอนตัมกับทฤษฎีสัมพัทธภาพ.</li>
+                <li><strong>กลศาสตร์ควอนตัม:</strong> วิเคราะห์กลศาสตร์ควอนตัมและการใช้ในระดับอะตอม.</li>
+                <li><strong>การศึกษาอนุภาค:</strong> ศึกษาอนุภาคและคุณสมบัติที่เฉพาะของมันในฟิสิกส์ควอนตัม.</li>
+                <li><strong>การประยุกต์ใช้ฟิสิกส์ควอนตัม:</strong> ศึกษาการประยุกต์ใช้ฟิสิกส์ควอนตัมในเทคโนโลยีเช่น คอมพิวเตอร์ควอนตัม.</li>
+            </ul>
+            <div class="example">
+                <strong>Example:</strong> การคำนวณการกระจายของอนุภาคในฟังก์ชันคลื่นของโมเดลควอนตัม.
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 mt-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <p class="mb-0">Student Learning Internet.</p>
+            <p class="mb-0">วิชา ศึกษาค้นคว้าและสร้างองค์ความรู้(IS)</p>
+            <p class="mb-0">© 2024</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
